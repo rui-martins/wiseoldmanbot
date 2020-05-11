@@ -1,4 +1,5 @@
-const TOKEN = "NzA4MDY0ODE4MzY3ODIzOTc0.XrSFbw.nakzI8rVuUuGHIE_ZSLqRoIBwW0";
+require('dotenv').config();
+const TOKEN = process.env.DISCORD_TOKEN;
 const PREFIX = "!";
 const Discord = require("discord.js");
 const client = new Discord.Client();
